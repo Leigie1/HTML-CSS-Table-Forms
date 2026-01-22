@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form</title>
+    <style>
+        table {
+            border: 3px solid #4a90e2;
+            border-collapse: collapse;
+        }
+        
+        td {
+            border: 2px solid #4a90e2;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>User Rating Form</h2>
+        <table border="4">
+        <tr>
+        <td>
+          <label for="name">Name:</label>
+        </td>
+        <td>
+          <input type="text" id="name" name="name">
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <label for="email">Email:</label>
+        </td>
+        <td>
+          <input type="email" id="email" name="email">
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <label for="rating">Rating:</label>
+        </td>
+        <td>
+          <select id="rating" name="rating">
+              <option value="">Select a rating</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+          </select>
+        </td>
+        </tr>
+        <tr>
+        <td colspan="2">
+            <button type="submit">Submit</button>
+        </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
